@@ -14,9 +14,7 @@
     @vite('resources/js/app.js')
 
 </head>
-@php
-    dump($trains);   
-@endphp
+
 <body>
 
     <main class="container bg-light">

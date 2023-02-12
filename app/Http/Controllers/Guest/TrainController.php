@@ -10,7 +10,7 @@ class TrainController extends Controller
 {
     public function index()
     {
-        $trains = Train::where('departure_time', 'LIKE', '2023-02-10%')->get();
+        $trains = Train::all();
         return view('trains.index', compact('trains'));
     }
 }
